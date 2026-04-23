@@ -2,9 +2,9 @@
 
 This repository contains an advanced, modular AI pipeline developed for the **Reply AI Agents Challenge 2026**. The system is designed to detect sophisticated "Mirror Hackers" within a simulated banking ecosystem (MirrorPay) by orchestrating specialized AI agents through a state-machine architecture.
 
-## 🚀 Key Features
+##  Key Features
 
-* **Multimodal Intelligence:** Automated transcription of vishing (voice phishing) calls using **Google Gemini 1.5 Pro** to identify extortion and social engineering triggers.
+* **Multimodal Intelligence:** Automated transcription of vishing (voice phishing) calls using **Google Gemini 2.5 Pro** to identify extortion and social engineering triggers.
 * **Agentic Orchestration:** A **LangGraph-powered** state machine that manages four specialized expert personas (Financial, Identity, NLP, and Meta-Reviewer).
 * **Semantic RAG (Retrieval-Augmented Generation):** Integration with **ChromaDB** to retrieve similar historical fraud patterns, providing agents with few-shot context.
 * **High-Signal Feature Engineering:** Custom Python logic for calculating **Haversine distances** (geo-anomalies), **Z-scores** (financial outliers), and transaction velocity.
@@ -13,7 +13,7 @@ This repository contains an advanced, modular AI pipeline developed for the **Re
 
 ---
 
-## 🏗️ System Architecture
+##  System Architecture
 
 The pipeline is divided into 5 distinct phases to ensure separation of concerns and scalability:
 
@@ -37,7 +37,7 @@ The pipeline is divided into 5 distinct phases to ensure separation of concerns 
 
 ---
 
-## 🛠️ Technical Stack
+##  Technical Stack
 
 | Component | Technology |
 | :--- | :--- |
@@ -50,7 +50,7 @@ The pipeline is divided into 5 distinct phases to ensure separation of concerns 
 
 ---
 
-## 🏁 Getting Started
+##  Getting Started
 
 1.  **Install Dependencies:**
     ```bash
@@ -78,8 +78,8 @@ The pipeline is divided into 5 distinct phases to ensure separation of concerns 
 
 ---
 
-## 📈 Performance Tracking
+##  Performance Tracking
 This project uses **Langfuse** to monitor agent performance. Each run generates a unique Session ID, allowing for granular review of how the Meta-Reviewer arrived at a specific fraud verdict based on agent consensus.
 
 ---
-**Disclaimer:** This system was built for the Reply AI Agents Challenge and is optimized for the MirrorPay simulation dataset.
+**Disclaimer:** This system was built for the Reply AI Agents Challenge and is optimized for the simulation dataset.
