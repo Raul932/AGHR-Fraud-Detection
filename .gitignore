@@ -1,0 +1,35 @@
+# === Securitate & Configurare locală ===
+.env
+.python-version
+.vscode/
+.claude/
+
+# === Python ===
+__pycache__/
+*.py[cod]
+*$pyclass
+.venv/
+venv/
+
+# === Baze de Date & Cache (Foarte important!) ===
+.chromadb/
+.langchain.db
+*.sqlite
+
+# === Dataset-uri Concurs (Ignoră folderele cu date) ===
+1984 - validation/
+Blade Runner - train/
+Blade+Runner+-+validation/
+# Adaugă aici și alte foldere de tip "train" sau "validation" dacă apar
+The Truman Show - train/
+Deus Ex - train/
+
+# === Output-uri & Arhive ===
+output/
+*.zip
+*.log
+submission.txt
+
+# === OS Files ===
+.DS_Store
+Thumbs.db
